@@ -1,4 +1,4 @@
-setwd("/Users/Brian_Liou/Documents/STAT151A") # YOU NEED TO SET YOUR OWN WORKING DIRECTORY
+setwd("/home/ojal/DataScientist/Kaggle/Titanic/") # YOU NEED TO SET YOUR OWN WORKING DIRECTORY
 
 trainData <- read.csv("train.csv", header = TRUE, stringsAsFactors = FALSE)
 testData <- read.csv("test.csv", header = TRUE, stringsAsFactors = FALSE)
